@@ -30,7 +30,7 @@ Linguage: Englis (UK)
     quest
         x > 0 variable
         y = x * t = 10^4 -> new variable
-        
+        n = 
         
     ```
 

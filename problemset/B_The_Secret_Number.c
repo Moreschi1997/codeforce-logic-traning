@@ -1,36 +1,38 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
+
 
 
 //create function for calculate potentiation of first line
 void potentiation_firstLine(long int *t){
-    *t = 1;
-    long int a = 10; // base potentiation
-    long int k = 4;  // exponent potentiation
+    long int k = 4; // exponent potentiation
+    long int base; // base potentiation
     long int i = 0; // counter to potentiation
-        while(i <= k){
-            *t = a * k;
-            *t = *t * k;
-            i++; 
+    long int result = 1; // result of potentiation
+        while(i < k){
+            base = 10;
+            result = result * base;
+            *t = result;
+            i++;
         }
-
 }
 
 // create function for calculate N numbers
 
 void calculatePotentiationOfN(long int *n){
-    *n = 11;
-    long int b = 10; // base potentiation
-    long int c = 18; // exponent potentiation
+    long int a = 18; // exponent potentiation
+    long int baseN; // base potentiation
     long int j = 0; // counter to potentiation
-        while(j <= c){
-            *n = b * c;
-            *n = *n * c;
+    long int resultN = 11; // result of potentiation
+        while(j < a){
+            baseN = 10;
+            resultN = resultN * baseN;
+            *n = resultN;
             j++;
         }
 }
 
 int main(){
+    
     
 }
